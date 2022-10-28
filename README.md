@@ -3,10 +3,10 @@
 Neste projeto desenvolvi uma carteira de controle de gastos com conversor de moedas.
 
 ## :link: Link Aplicação 
-- Acesse o site clicando no [**LINK**](https://main.d3hwi23vv25da8.amplifyapp.com/).
+- Acesse o site clicando no 
 
 ## ⚙️ Funcionalidades
-✅ Formulário de login;;
+✅ Formulário de login;
 
 ✅ Adicionar, remover e editar um gasto;
 
