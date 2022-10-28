@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/trybewallet/static/js/main.e98cb524.js",
+    "static/js/787.f676e795.chunk.js": "/trybewallet/static/js/787.f676e795.chunk.js",
+    "index.html": "/trybewallet/index.html",
+    "main.e98cb524.js.map": "/trybewallet/static/js/main.e98cb524.js.map",
+    "787.f676e795.chunk.js.map": "/trybewallet/static/js/787.f676e795.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e98cb524.js"
+  ]
+}
