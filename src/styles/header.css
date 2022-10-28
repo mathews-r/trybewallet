@@ -1,0 +1,18 @@
+.header {
+  align-items: center;
+  background-color: rgb(29, 38, 47);
+  color: white;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+}
+
+.total-p {
+  margin-right: 7px;
+}

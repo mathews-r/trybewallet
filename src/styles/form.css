@@ -1,0 +1,24 @@
+.form {
+  align-items: center;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.buttonsExpense {
+  cursor: pointer;
+  height: 25px;
+  width: 150px;
+}
+
+.inputsForm {
+  padding: 7px 4px;
+}
+
+.buttonsEditRemove {
+  cursor: pointer;
+  height: 25px;
+  margin-right: 5px;
+  width: 110px;
+}

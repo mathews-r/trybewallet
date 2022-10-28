@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# :scroll: TrybeWallet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Neste projeto desenvolvi uma carteira de controle de gastos com conversor de moedas.
 
-## Available Scripts
+## :link: Link Aplicação 
+- Acesse o site clicando no [**LINK**](https://main.d3hwi23vv25da8.amplifyapp.com/).
 
-In the project directory, you can run:
+## ⚙️ Funcionalidades
+✅ Formulário de login;;
 
-### `npm start`
+✅ Adicionar, remover e editar um gasto;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Visualizar uma tabelas com seus gastos;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Visualizar o total de gastos convertidos para uma moeda de escolha;
 
-### `npm test`
+## :hammer_and_wrench: Ferramentas 
+### 🍮 Frontend
+- React;
+- Redux;
+- RTL;
+- Actions Assíncronas;
+- React Router
+- AWS Amplify;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :computer: Layout Desenvolvido
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/83560101/198677379-911a87b6-bde1-4ca5-8b8f-797402d525a1.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Acessar Projeto Localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- *Clonar o repositório:*
 
-### `npm run eject`
+```
+$ git clone git@github.com:mathews-r/trybewallet.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- *Acessar o projeto trybewallet:*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ cd trybewallet
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- *Instalar dependências:*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+$ npm install
+```
 
-## Learn More
+- *Executar projeto:*
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ npm start
+```
+- *Executar os testes do projeto:*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ npm run test
+```
+## 👨‍💻 Desenvolvedor
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Mathews Rodrigues](https://www.linkedin.com/in/mathewsrodrigues/)
