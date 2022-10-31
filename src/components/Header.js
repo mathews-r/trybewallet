@@ -13,8 +13,7 @@ class Header extends Component {
         <div className="total">
           <p className="total-p">TOTAL DE DESPESAS:</p>
           <p data-testid="total-field">
-            {
-              expenses.reduce((acc, curr) => {
+            { expenses.reduce((acc, curr) => {
                 const { currency, exchangeRates } = curr;
                 acc += Number(exchangeRates[currency].ask) * curr.value;
                 return acc;
