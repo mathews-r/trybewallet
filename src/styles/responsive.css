@@ -59,6 +59,8 @@
 
 @media (max-width: 375px) {
   .header {
+    flex-direction: column;
+    justify-content: center;
     width: 133vw;
   }
 }
