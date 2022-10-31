@@ -28,11 +28,6 @@
 }
 
 @media (max-width: 425px) {
-  main {
-    height: 133vh;
-    width: 133vw;
-  }
-
   tr {
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +37,10 @@
 
   th {
     margin-top: 10px;
+  }
+
+  .header {
+    width: 133vw;
   }
 
   .form {
@@ -56,4 +55,28 @@
     height: 100vh;
   }
   
+}
+
+@media (max-width: 375px) {
+  .header {
+    width: 133vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .login {
+    display: flex;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 133vw;
+  }
+  .inputsLogin {
+    align-items: center;
+    display: flex;
+    width: 80vw;
+  }
 }
