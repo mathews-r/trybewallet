@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/trybewallet/static/css/main.8542e8aa.css",
-    "main.js": "/trybewallet/static/js/main.f8ebb343.js",
+    "main.js": "/trybewallet/static/js/main.f7a45404.js",
     "index.html": "/trybewallet/index.html",
     "main.8542e8aa.css.map": "/trybewallet/static/css/main.8542e8aa.css.map",
-    "main.f8ebb343.js.map": "/trybewallet/static/js/main.f8ebb343.js.map"
+    "main.f7a45404.js.map": "/trybewallet/static/js/main.f7a45404.js.map"
   },
   "entrypoints": [
     "static/css/main.8542e8aa.css",
-    "static/js/main.f8ebb343.js"
+    "static/js/main.f7a45404.js"
   ]
 }
