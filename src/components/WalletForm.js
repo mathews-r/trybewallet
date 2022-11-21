@@ -13,6 +13,7 @@ class WalletForm extends Component {
     this.state = {
       id: 0,
       value: '',
+      teste: '',
       description: '',
       currency: 'USD',
       method: 'Dinheiro',
@@ -20,23 +21,22 @@ class WalletForm extends Component {
       exchangeRates: {},
     };
   }
-
-  componentDidMount = () => {
+  
+  componentDidMount = async () => {
     const { getCoinsDispatch } = this.props;
+    const data = await fetchAPI();
+    this.setState({ exchangeRates: data })
     getCoinsDispatch();
   };
-
+  
   handleForm = ({ target }) => {
     const { name, value } = target;
     this.setState({ [name]: value });
   };
-
+  
   saveFormState = async (event) => {
     event.preventDefault();
     const { getDataFormDispatch } = this.props;
-    const data = await fetchAPI();
-
-    this.setState({ exchangeRates: data });
 
     getDataFormDispatch(this.state);
 
