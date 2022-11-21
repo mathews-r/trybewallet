@@ -9,8 +9,8 @@ function App() {
   return (
     <main>
       <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/carteira" element={<Wallet />} />
+      <Route exact path="/trybewallet" element={<Login />} />
+      <Route exact path="/carteira" element={<Wallet />} />
       </Routes>
     </main>
   );
